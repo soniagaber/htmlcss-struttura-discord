@@ -59,3 +59,47 @@ nav{
     background-color: darkblue;
     height: 70px;
 }
+
+#jumbo-inner{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    height: 60px;
+    background-color: darkblue;
+    /* test */
+}
+
+#descrizione{
+    height: 95px;
+    background-color: darkblue;
+    /* test */
+}
+
+#btn-scarica-apri{
+    height: 60px;
+    background-color:blue;
+    /* test */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+#scarica{
+    height: 60px;
+    background-color: darkblue;
+    width: 140px;
+}
+
+#apri{
+    height: 60px;
+    background-color: darkblue;
+    width: 140px;
+}
