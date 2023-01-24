@@ -115,34 +115,27 @@ p{
     width: 140px;
 }
 
-section{
-    height: 520px;
+main section .container-centered{
+    min-height: 300px;
     width: 100%;
     background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-h2{
-    background-color: orange;
-    height: 150px;
-    width: 300px;
+    gap:60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .h2-descr{
-    display: flex;
-    flex-direction: column;
-}
-
-.descr{
     background-color: orange;
-    height: 150px;
-    width: 300px;
+    min-width: 30%;
+    max-width: 60%;
+    flex-grow: 1;
 }
 
-.immagine{
+.section-image{
     background-color: orange;
     height: 300px;
-    width: 300px;
+    width: 400px;
 }
