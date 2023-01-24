@@ -143,3 +143,32 @@ main section:nth-child(even) .container-centered{
     height: 300px;
     width: 400px;
 }
+
+#last-section .container-centered{
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 300px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#last-section h2{
+    height: 25px;
+    background-color: orange;
+}
+
+#last-section p{
+    height: 50px;
+    background-color: orange;
+}
+
+#last-section #last-section-image{
+    height: 400px;
+    background-color: orange;
+}
