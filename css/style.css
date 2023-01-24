@@ -127,6 +127,10 @@ main section .container-centered{
     padding-bottom: 20px;
 }
 
+main section:nth-child(even) .container-centered{
+    flex-direction: row-reverse;
+}
+
 .h2-descr{
     background-color: orange;
     min-width: 30%;
