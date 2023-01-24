@@ -60,9 +60,19 @@ nav{
     height: 70px;
 }
 
+header{
+    background-color: aqua;
+}
+
+#jumbo{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    min-height: 400px;
+}
+
 #jumbo-inner{
-    height: 350px;
-    width: 100%;
+    width: 550px;
     background-color: blue;
     display: flex;
     flex-direction: column;
@@ -71,17 +81,18 @@ nav{
 
 h1{
     height: 60px;
+    margin-bottom: 0.8em;
     background-color: darkblue;
     /* test */
 }
 
-#descrizione{
-    height: 95px;
+p{
     background-color: darkblue;
     /* test */
+    margin-bottom: 0.5em;
 }
 
-#btn-scarica-apri{
+#btns{
     height: 60px;
     background-color:blue;
     /* test */
@@ -92,14 +103,46 @@ h1{
     gap: 15px;
 }
 
-#scarica{
+#btn-primary{
     height: 60px;
     background-color: darkblue;
     width: 140px;
 }
 
-#apri{
+#btn-secondary{
     height: 60px;
     background-color: darkblue;
     width: 140px;
+}
+
+section{
+    height: 520px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2{
+    background-color: orange;
+    height: 150px;
+    width: 300px;
+}
+
+.h2-descr{
+    display: flex;
+    flex-direction: column;
+}
+
+.descr{
+    background-color: orange;
+    height: 150px;
+    width: 300px;
+}
+
+.immagine{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
 }
